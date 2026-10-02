@@ -1,1 +1,233 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a Computer Science student and aspiring software developer.">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Mehul Yt | Computer Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>Mehul<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</p>
+          <h1>Building software,<br><span class="gradient-text">one project at a time.</span></h1>
+          <p class="hero-text">
+            I'm Mehul — a Computer Science student interested in software development,
+            backend systems, automation, Linux, and cybersecurity.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View my work <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Let's connect</a>
+          </div>
+
+          <div class="quick-links">
+            <a href="#" data-placeholder-link="github" aria-label="GitHub">GitHub ↗</a>
+            <a href="#" data-placeholder-link="linkedin" aria-label="LinkedIn">LinkedIn ↗</a>
+            <a href="assets/resume/resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="code-window">
+            <div class="window-bar">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>mehul.py</span>
+              <span class="window-lang">Python</span>
+            </div>
+            <pre><code><span class="code-purple">class</span> <span class="code-blue">Developer</span>:
+    <span class="code-purple">def</span> <span class="code-yellow">__init__</span>(self):
+        self.name = <span class="code-green">"Mehul"</span>
+        self.focus = [
+            <span class="code-green">"Software"</span>,
+            <span class="code-green">"Cybersecurity"</span>,
+            <span class="code-green">"Problem Solving"</span>
+        ]
+
+    <span class="code-purple">def</span> <span class="code-yellow">build</span>(self):
+        <span class="code-purple">return</span> <span class="code-green">"Learn → Build → Improve"</span></code></pre>
+          </div>
+          <div class="floating-card card-one"><span>☕</span> Always learning</div>
+          <div class="floating-card card-two"><span>⌘</span> Build mode: ON</div>
+        </div>
+      </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Curious by nature.<br><span class="muted">Builder by practice.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I'm a Computer Science student building my foundation across programming,
+            databases, web development, and systems. I started with Python and am
+            currently strengthening my Java, OOP, and DSA skills.
+          </p>
+          <p>
+            I enjoy turning ideas into working projects — from a vehicle garage
+            management system backed by MySQL to Python automation and Telegram bots.
+            My longer-term interests include backend engineering, Linux, networking,
+            and cybersecurity.
+          </p>
+          <div class="about-stats">
+            <div><strong>01+</strong><span>Years learning<br>and building</span></div>
+            <div><strong>02+</strong><span>Featured<br>projects</span></div>
+            <div><strong>∞</strong><span>Things left<br>to learn</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Technologies I work with.</h2>
+          <p>My toolkit is growing as I move from fundamentals to building real applications.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <article class="skill-card">
+            <span class="skill-icon">{ }</span>
+            <h3>Languages</h3>
+            <div class="tags"><span>Python</span><span>Java</span><span>SQL</span><span>JavaScript</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">◈</span>
+            <h3>Web</h3>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive UI</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Backend & Data</h3>
+            <div class="tags"><span>MySQL</span><span>Pandas</span><span>Pyrogram</span><span>yt-dlp</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">◉</span>
+            <h3>Tools & Systems</h3>
+            <div class="tags"><span>Git</span><span>GitHub</span><span>Linux</span><span>VS Code</span></div>
+          </article>
+        </div>
+
+        <div class="learning-strip reveal">
+          <span class="learning-label">CURRENTLY LEARNING</span>
+          <div class="learning-items">
+            <span>Java + OOP</span><span>DSA</span><span>JavaScript</span><span>Linux</span><span>Networking</span><span>Cybersecurity</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-top">
+          <div class="section-heading reveal">
+            <p class="eyebrow">03 / PROJECTS</p>
+            <h2>Things I've built.</h2>
+          </div>
+          <div class="filter-wrap reveal" id="projectFilters"></div>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / JOURNEY</p>
+          <h2>Learning with<br><span class="muted">direction.</span></h2>
+          <p class="section-subtext">A roadmap that evolves as I learn and build.</p>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-year">FOUNDATION</span>
+            <h3>Python & Programming</h3>
+            <p>Built programming fundamentals and started creating practical Python projects and automation.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-year">NOW</span>
+            <h3>Java, OOP & DSA</h3>
+            <p>Strengthening core computer science concepts while building web development skills.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-year">NEXT</span>
+            <h3>Backend & Systems</h3>
+            <p>Moving toward Java/Spring Boot, databases, Linux, networking, and larger applications.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-year">LONG TERM</span>
+            <h3>Cybersecurity</h3>
+            <p>Developing practical knowledge of operating systems, networking, security fundamentals, and secure software.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">05 / CONTACT</p>
+          <h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2>
+          <p>I'm open to learning opportunities, interesting projects, collaborations, and conversations about technology.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:your.email@example.com">Email me ↗</a>
+          <div class="contact-links">
+            <a href="#" data-placeholder-link="github">GitHub</a>
+            <a href="#" data-placeholder-link="linkedin">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mehul. Built with HTML, CSS & JavaScript.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
