@@ -1,16 +1,42 @@
 ## Hi there 👋
 
-<!--
-**mehulpatil-dev/mehulpatil-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Portfolio
+├── HTML5
+├── CSS3
+│   ├── CSS variables
+│   ├── Responsive design
+│   ├── Grid / Flexbox
+│   └── Dark theme
+├── JavaScript
+│   ├── Mobile navigation
+│   ├── Theme toggle
+│   ├── Project filtering
+│   ├── Scroll animations
+│   └── Dynamic project rendering
+└── Assets
+    ├── profile/
+    ├── projects/
+    └── certificates/
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+my-portfolio/
+│
+├── index.html
+│
+├── css/
+│   ├── style.css
+│   ├── responsive.css
+│   └── animations.css
+│
+├── js/
+│   ├── main.js
+│   ├── projects.js
+│   └── data.js
+│
+├── assets/
+│   ├── images/
+│   │   ├── profile.jpg
+│   │   └── projects/
+│   ├── icons/
+│   └── resume/
+│
+└── README.md
